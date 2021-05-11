@@ -14,10 +14,28 @@ body {
     }
 
 
-    .interior {
-        text-align: center;
-       
-    }
+ .interior {    
+    font-family: 'Lato', sans-serif;
+  text-align: center;
+  height: 70px;
+  
+
+ }
+
+ .interior h1 {
+     opacity: 0.1;
+     font-size: 120px;
+     
+ }
+
+ .interior h3{
+
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+ }
   
 .carrusel {
     text-align: center;
@@ -28,29 +46,47 @@ body {
 }
 
 .cards {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 570px;
     padding: 5% 15%;
     justify-content: center;
+    border-radius: 100px;
+ 
+
+    
     
 
 }
 
 .cards .card-body{
-    background-color:rgb(169, 169, 169)
+    background-color:rgb(91, 91, 91);
+  
+    
  
 }
 
 .cards .card-title {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: darkgrey;
+}
+
+.cards p {
+    font-family: 'Poppins', sans-serif;
+    color: darkgrey;
 }
 .cards a {
-    background-color:dimgrey;
+    background-color:rgb(75, 75, 75);
     border: dimgrey;
     border-radius: 30px;
     display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
     
 
 }
@@ -85,7 +121,8 @@ body {
     height: auto;
     text-align: center;
     font-size: 14px;
-    color: rgb(70, 70, 70);
+    color: rgb(46, 45, 45);
+    font-family: 'Lato', sans-serif;
 }
 
 .persianaparati a {
@@ -96,6 +133,8 @@ body {
     border: dimgrey;
     border-radius: 30px;
     margin-left: 50%;
+    font-family: 'Poppins', sans-serif;
+    
 
     
 
@@ -148,4 +187,27 @@ body {
     
     
 }
+
+
+.final {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    text-align: center; 
+    margin-top: 7%;
+    
+    
+}
+
+
+.final2 {
+
+    text-align: center;
+    
+    font-family: 'Poppins', sans-serif;
+    
+    margin-top: 4%;
+    
+}
+
 
